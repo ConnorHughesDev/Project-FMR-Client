@@ -1,0 +1,38 @@
+#div {
+    margin-top: 5em;
+    /* background-color: rgb(231, 231, 231); */
+    background-color: #6900eac7;
+    border: solid rgb(255, 238, 3);
+    border-radius: 5px;
+    display: flexbox;
+    justify-self: center;
+}
+
+.posth3 {
+    font-family: 'Creepster', cursive;
+    font-size: 3em;
+    -webkit-text-stroke: .02em rgb(255, 238, 3);
+}
+
+.form {
+    font-family: 'Special Elite', cursive;
+}
+
+.label {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    text-shadow: -1px 1px 5px #F7FF02;
+}
+
+.subbtn {
+    margin-bottom: 1em;
+}
+
+.signIn {
+    font-family: 'Special Elite', cursive;
+    /* font-weight: bold; */
+    padding-top: 1em;
+    display: flex;
+    justify-self: center;
+}

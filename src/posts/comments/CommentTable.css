@@ -1,0 +1,37 @@
+#comTitle {
+    font-size: calc(100% + 1vw + 1vh);
+    font-family: 'Creepster', cursive;
+    /* font-size: 6em; */
+    color: rgb(36, 36, 36);
+    -webkit-text-stroke: .03em rgb(255, 238, 3);
+    letter-spacing: .03em;
+    /* display: flex;
+    justify-self: center; */
+}
+
+#user {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+#username {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+#comment {
+    /* display: flex;
+    justify-content: flex-start; */
+    font-family: 'Special Elite', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}

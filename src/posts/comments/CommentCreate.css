@@ -1,0 +1,25 @@
+#comHere {
+    font-size: calc(90% + 1vw + 1vh);
+    font-family: 'Creepster', cursive;
+    color: rgb(36, 36, 36);
+    -webkit-text-stroke: .03em rgb(255, 238, 3);
+    letter-spacing: .03em;
+}
+
+#content {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Special Elite', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}
+
+#signCom {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+}

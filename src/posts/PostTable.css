@@ -1,0 +1,47 @@
+#top {
+    margin-top: 5em;
+    background-color: rgba(255, 238, 3, 0.774);
+    border: solid;
+    border-color: #6B00EA;
+    border-radius: 5px;
+}
+
+#header {
+    font-family: 'Creepster', cursive;
+    font-size: calc(100% + 6vw + 1vh);
+    /* font-size: 5em; */
+    color: #6B00EA;
+    -webkit-text-stroke: .05em rgb(36, 36, 36);
+    letter-spacing: .05em;
+    /* display: flex;
+    justify-self: center; */
+}
+
+#head {
+    font-family: 'Creepster', cursive;
+    font-size: calc(100% + 1vw + 1vh);
+    /* font-size: 2em; */
+    letter-spacing: .1em;
+}
+
+#trow {
+    font-family: 'Special Elite', cursive;
+}
+
+#mtrow {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 1.2em;
+}
+
+.viewbtn {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(255, 238, 3);
+    border-color: #6B00EA;
+    border-width: .1em;
+}

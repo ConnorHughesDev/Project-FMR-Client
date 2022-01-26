@@ -1,0 +1,72 @@
+#curPost {
+    margin-top: 2em;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+
+#btnCol {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delBtn {
+    /* background-color: rgb(255, 238, 3); */
+    font-family: 'Special Elite', cursive;
+    /* font-size: 1.4em; */
+    /* font-weight: bold; */
+    /* color: rgb(36, 36, 36); */
+}
+
+.upBtn {
+    font-family: 'Special Elite', cursive;
+}
+
+/* .delBtn:hover {
+    border: solid #6B00EA;
+} */
+
+.bBtn {
+    font-family: 'Special Elite', cursive;
+}
+
+#btnCol2 {
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: end;
+}
+
+#curTitle {
+    margin-top: 1em;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    /* font-size: calc(100% + 1vw + 1vh); */
+    font-size: 3em;
+    font-family: 'Creepster', cursive;
+}
+
+#mmy {
+    margin-top: .5em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+    font-size: calc(50% + 1vw + 1vh);
+    font-weight: bold;
+}
+
+#user {
+    display: flex;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+    font-size: calc(20% + 1vw + 1vh);
+}
+
+#pBody {
+    display: flex;
+    justify-content: center;
+    font-family: 'Special Elite', cursive;
+    font-size: calc(15% + 1vw + 1vh);
+}

@@ -1,0 +1,19 @@
+.signuph1 {
+    font-family: 'Creepster', cursive;
+    -webkit-text-stroke: .03em rgb(255, 238, 3);
+    font-size: 4em;
+}
+
+.signup {
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: rgb(255, 238, 3);
+    /* -webkit-text-stroke: .001rem rgb(37, 37, 37); */
+}
+
+.signBtn {
+    background-color: rgb(255, 238, 3);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+}
