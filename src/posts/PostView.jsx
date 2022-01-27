@@ -3,7 +3,7 @@ import { Table, Button, Container, Row, Col } from 'reactstrap';
 import CommentIndex from './comments/CommentIndex';
 import PostEdit from "./PostEdit";
 import './PostView.css'
-import APIURL from "../helpers/enviornment";
+import APIURL from "../helpers/environment";
 
 class PostView extends React.Component {
     constructor(props) {

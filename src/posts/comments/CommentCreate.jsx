@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './CommentCreate.css'
-import APIURL from './helpers/enviornment';
+import APIURL from '../../helpers/environment';
 
 class CommentCreate extends Component {
     constructor(props) {

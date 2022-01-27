@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import './PosteCreate.css'
-import APIURL from '../helpers/enviornment';
+import APIURL from '../helpers/environment';
 
 class PostCreate extends Component {
     constructor(props) {

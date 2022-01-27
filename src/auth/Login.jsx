@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 import './Login.css'
-import APIURL from "../helpers/enviornment";
+import APIURL from '../helpers/environment'
 
 class Login extends Component {
     constructor(props) {

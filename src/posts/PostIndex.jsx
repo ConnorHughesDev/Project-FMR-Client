@@ -5,7 +5,7 @@ import PostCreate from './PostCreate';
 import PostsTable from './PostsTable';
 import PostEdit from './PostEdit';
 import PostView from './PostView';
-import APIURL from '../helpers/enviornment';
+import APIURL from '../helpers/environment';
 
 
 class PostIndex extends Component {
