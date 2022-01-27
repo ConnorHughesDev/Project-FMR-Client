@@ -5,7 +5,7 @@ switch (window.location.hostname) {
         APIURL = 'http:/localhost:3060';
         break;
     case 'project-fmr-client.herokuapp.com':
-        APIURL = 'https://project-fmr-server.com';
+        APIURL = 'https://project-fmr-server.herokuapp.com';
 }
 
 export default APIURL;
