@@ -7,7 +7,7 @@ import CommentEdit from './CommentEdit';
 // import PostsTable from './PostsTable';
 // import PostEdit from './PostEdit';
 import './CommentIndex.css'
-import APIURL from '../../helpers/enviornment';
+import APIURL from '../../helpers/environment';
 
 
 class CommentIndex extends Component {
