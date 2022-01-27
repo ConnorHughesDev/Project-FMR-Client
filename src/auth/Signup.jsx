@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 import './Signup.css'
+import APIURL from "../helpers/enviornment";
 
 // type acceptedProps = {
 //     setToken: () => void
@@ -34,7 +35,7 @@ class Signup extends Component {
     }
 
     handleSubmit = (event) => {
-        fetch("http://localhost:3060/auth/signup", {
+        fetch(`${APIURL}/auth/signup`, {
             method: 'POST',
             body: JSON.stringify({user:this.state}),
             headers: new Headers({

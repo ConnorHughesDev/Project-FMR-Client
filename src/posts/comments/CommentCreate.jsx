@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './CommentCreate.css'
+import APIURL from './helpers/enviornment';
 
 class CommentCreate extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ class CommentCreate extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`http://localhost:3060/comments/comment`, {
+        fetch(`${APIURL}/comments/comment`, {
             method: 'POST',
             body: JSON.stringify({ comment: { postId: this.props.id, content: this.state.content } }),
             headers: new Headers({

@@ -7,6 +7,7 @@ import CommentEdit from './CommentEdit';
 // import PostsTable from './PostsTable';
 // import PostEdit from './PostEdit';
 import './CommentIndex.css'
+import APIURL from '../../helpers/enviornment';
 
 
 class CommentIndex extends Component {
@@ -23,7 +24,7 @@ class CommentIndex extends Component {
     }
 
     fetchComments = () => {
-        fetch("http://localhost:3060/comments/", {
+        fetch(`${APIURL}/comments/`, {
             method: 'GET',
             headers: new Headers({
                 'Content-Type': 'application/json',
@@ -36,8 +37,8 @@ class CommentIndex extends Component {
     }
 
     commentUpdate = (event, comment) => {
-        console.log(comment.content)
-        fetch(`http://localhost:3060/comments/${comment.id}`, {
+        // console.log(comment.content)
+        fetch(`${APIURL}/comments/${comment.id}`, {
             method: 'PUT',
             body: JSON.stringify({ "comment": {'content': comment.content} }),
             headers: new Headers({
@@ -57,7 +58,7 @@ class CommentIndex extends Component {
     }
 
     commentDelete = (event) => {
-        fetch(`http://localhost:3060/comments/${event.target.id}`, {
+        fetch(`${APIURL}/comments/${event.target.id}`, {
             method: 'DELETE',
             body: JSON.stringify({ post: { id: event.target.id } }),
             headers: new Headers({

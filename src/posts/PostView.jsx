@@ -3,6 +3,7 @@ import { Table, Button, Container, Row, Col } from 'reactstrap';
 import CommentIndex from './comments/CommentIndex';
 import PostEdit from "./PostEdit";
 import './PostView.css'
+import APIURL from "../helpers/enviornment";
 
 class PostView extends React.Component {
     constructor(props) {
@@ -16,7 +17,7 @@ class PostView extends React.Component {
 
     postUpdate = (event, post, postId) => {
         console.log(postId)
-        fetch(`http://localhost:3060/posts/${postId}`, {
+        fetch(`${APIURL}/posts/${postId}`, {
             method: 'PUT',
             body: JSON.stringify({ post }),
             headers: new Headers({

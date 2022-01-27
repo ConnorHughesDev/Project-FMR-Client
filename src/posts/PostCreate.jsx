@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import './PosteCreate.css'
+import APIURL from '../helpers/enviornment';
 
 class PostCreate extends Component {
     constructor(props) {
@@ -23,7 +24,7 @@ class PostCreate extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`http://localhost:3060/posts/post`, {
+        fetch(`${APIURL}/posts/post`, {
             method: 'POST',
             body: JSON.stringify({ post: this.state }),
             headers: new Headers({

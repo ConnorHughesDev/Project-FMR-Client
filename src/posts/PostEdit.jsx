@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, Modal, ModalHeader, ModalBody } from 'reactstrap';
+import APIURL from '../helpers/enviornment';
 
 class PostEdit extends React.Component {
     constructor(props) {
@@ -27,7 +28,7 @@ class PostEdit extends React.Component {
 
     postUpdate = (event, post, postId) => {
         console.log(postId)
-        fetch(`http://localhost:3060/posts/${postId}`, {
+        fetch(`${APIURL}/posts/${postId}`, {
             method: 'PUT',
             body: JSON.stringify({ post }),
             headers: new Headers({

@@ -5,6 +5,7 @@ import PostCreate from './PostCreate';
 import PostsTable from './PostsTable';
 import PostEdit from './PostEdit';
 import PostView from './PostView';
+import APIURL from '../helpers/enviornment';
 
 
 class PostIndex extends Component {
@@ -20,7 +21,7 @@ class PostIndex extends Component {
     }
 
     fetchPosts = () => {
-        fetch("http://localhost:3060/posts/", {
+        fetch(`${APIURL}/posts/`, {
             method: 'GET',
             headers: new Headers({
                 'Content-Type': 'application/json',
@@ -35,7 +36,7 @@ class PostIndex extends Component {
 
     postDelete = (event) => {
         // console.log('potato')
-        fetch(`http://localhost:3060/posts/${event.target.id}`, {
+        fetch(`${APIURL}/${event.target.id}`, {
             method: 'DELETE',
             body: JSON.stringify({ post: { id: event.target.id } }),
             headers: new Headers({
